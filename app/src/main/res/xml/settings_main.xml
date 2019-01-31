@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <ListPreference
+        android:defaultValue="@string/settings_sort_newzys_by_default"
+        android:entries="@array/settings_sort_newzys_by_labels"
+        android:entryValues="@array/settings_sort_newzys_by_values"
+        android:key="@string/settings_sort_newzys_by_key"
+        android:title="@string/settings_sort_newzys_by_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_newzys_to_retrieve_default"
+        android:entries="@array/settings_newzys_to_retrieve_labels"
+        android:entryValues="@array/settings_newzys_to_retrieve_values"
+        android:key="@string/settings_newzys_to_retrieve_key"
+        android:title="@string/settings_newzys_to_retrieve_label" />
+
+    <EditTextPreference
+        android:hint="YYYY-MM-DD"
+        android:inputType="date"
+        android:summary="@string/provide_optional_from_date"
+        android:key="@string/settings_newzys_from_date_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_newzys_from_date_label" />
+
+    <EditTextPreference
+        android:hint="YYYY-MM-DD"
+        android:inputType="date"
+        android:summary="@string/provide_optional_to_date"
+        android:key="@string/settings_newzys_to_date_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_newzys_to_date_label" />
+
+</PreferenceScreen>
