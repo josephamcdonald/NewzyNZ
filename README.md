@@ -2,7 +2,7 @@
 
 ### New Zealand "Newzys!"
 
-"Newzy" news of New Zealand!
+Newzy NZ is based upon the Newsy news app!
 
 ## Getting Started
 
