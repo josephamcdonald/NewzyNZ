@@ -26,7 +26,7 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class NewzyUtils {
+final class NewzyUtils {
 
     private NewzyUtils() {
         // Required empty constructor.
@@ -35,7 +35,7 @@ public final class NewzyUtils {
     // Tag for the log messages.
     private static final String LOG_TAG = NewzyUtils.class.getSimpleName();
 
-    public static List<Newzy> fetchNewzys(String requestUrl) {
+    static List<Newzy> fetchNewzys(String requestUrl) {
 
         // Assign the URL object.
         URL url = createUrl(requestUrl);

@@ -8,37 +8,37 @@ package com.example.android.newzynz;
  * Author: Joseph McDonald
  */
 
-public class Newzy {
+class Newzy {
 
     /**
      * Newzy section.
      */
-    private String newzySection;
+    private final String newzySection;
 
     /**
      * Newzy publication date.
      */
-    private String newzyDate;
+    private final String newzyDate;
 
     /**
      * Newzy title.
      */
-    private String newzyTitle;
+    private final String newzyTitle;
 
     /**
      * Newzy web URL.
      */
-    private String newzyUrl;
+    private final String newzyUrl;
 
     /**
      * Newzy author.
      */
-    private String newzyAuthor;
+    private final String newzyAuthor;
 
     /**
      * Newzy image URL.
      */
-    private String newzyImage;
+    private final String newzyImage;
 
     /**
      * Create a Newzy object without time.
@@ -62,42 +62,42 @@ public class Newzy {
     /**
      * Get the Newzy section.
      */
-    public String getNewzySection() {
+    String getNewzySection() {
         return newzySection;
     }
 
     /**
      * Get the Newzy publication date.
      */
-    public String getNewzyDate() {
+    String getNewzyDate() {
         return newzyDate;
     }
 
     /**
      * Get the Newzy title.
      */
-    public String getNewzyTitle() {
+    String getNewzyTitle() {
         return newzyTitle;
     }
 
     /**
      * Get the Newzy web URL.
      */
-    public String getNewzyUrl() {
+    String getNewzyUrl() {
         return newzyUrl;
     }
 
     /**
      * Get the Newzy author.
      */
-    public String getNewzyAuthor() {
+    String getNewzyAuthor() {
         return newzyAuthor;
     }
 
     /**
      * Get the Newzy image URL.
      */
-    public String getNewzyImage() {
+    String getNewzyImage() {
         return newzyImage;
     }
 }
