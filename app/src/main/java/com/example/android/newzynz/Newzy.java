@@ -44,11 +44,11 @@ class Newzy {
      * Create a Newzy object without time.
      *
      * @param section Newzy section.
-     * @param date Newzy publication date.
-     * @param title Newzy publication time.
-     * @param url Newzy title.
-     * @param author Newzy web URL.
-     * @param image Newzy image URL.
+     * @param date    Newzy publication date.
+     * @param title   Newzy publication time.
+     * @param url     Newzy title.
+     * @param author  Newzy web URL.
+     * @param image   Newzy image URL.
      */
     public Newzy(String section, String date, String title, String url, String author, String image) {
         newzySection = section;

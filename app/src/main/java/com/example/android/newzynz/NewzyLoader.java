@@ -9,13 +9,16 @@ package com.example.android.newzynz;
  */
 
 import android.content.Context;
+
 import androidx.loader.content.AsyncTaskLoader;
 
 import java.util.List;
 
 class NewzyLoader extends AsyncTaskLoader<List<Newzy>> {
 
-    /** Declare the newzy request URL */
+    /**
+     * Declare the newzy request URL
+     */
     private final String newzyUrl;
 
     NewzyLoader(Context context, String url) {
