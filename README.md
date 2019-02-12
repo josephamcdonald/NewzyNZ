@@ -34,9 +34,9 @@ Joseph McDonald
 
 N/A
 
-## Extras
+## Features
 
-**REST API**
+**REST/HTTP**
 
 **JSON**
 
@@ -56,7 +56,7 @@ N/A
 
 **Picasso**
 
-**Google Fira Sans Typeface** - This is the only typeface used throughout the app. (detail below)
+**Google Fira Sans Typeface** - This is the only typeface used throughout the app (some detail below).
 
 
 ## Acknowledgements
