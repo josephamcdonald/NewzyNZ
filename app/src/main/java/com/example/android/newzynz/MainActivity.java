@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void launchNewzyFragment() {
 
         if (newzysSection == null) {
-            setTitle(R.string.app_name);
+            setTitle(R.string.newzy);
 
         } else {
             setTitle(newzysSection);
