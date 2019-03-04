@@ -6,7 +6,7 @@
     <string name="item_image">item image</string>
     <string name="navigation_next">navigation next</string>
     <string name="news_of_new_zealand">\"Newzy\" news of New Zealand</string>
-    <string name="loading_url">Loading URL</string>
+    <string name="loading_newzy">Loading Newzy&#8230;</string>
     <string name="date_separator">T</string>
     <string name="settings">Settings</string>
     <string name="empty_string" />

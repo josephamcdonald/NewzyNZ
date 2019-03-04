@@ -86,7 +86,7 @@ public class NewzyHolder extends RecyclerView.ViewHolder implements View.OnClick
     public void onClick(View v) {
 
         // Create the toast message and show it.
-        Toast.makeText(context, context.getString(R.string.loading_url), Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, context.getString(R.string.loading_newzy), Toast.LENGTH_SHORT).show();
 
         // Create intent for the current Newzy URL and start it.
         Intent urlIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(currentNewzy.getNewzyUrl()));
