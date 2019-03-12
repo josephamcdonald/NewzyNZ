@@ -16,7 +16,7 @@ Obtain your developer API key from The Guardian and reference it inside your glo
 
 ## Built With
 
-Android Studio 3.3.1
+Android Studio 3.3.2
 
 Gradle 4.10.1
 
