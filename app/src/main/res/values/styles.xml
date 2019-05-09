@@ -9,6 +9,10 @@
         <item name="android:fontFamily">@font/fira_sans</item>
     </style>
 
+    <style name="AppTheme.NavHeaderBackground">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
