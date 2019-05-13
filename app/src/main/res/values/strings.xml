@@ -12,6 +12,7 @@
     <string name="empty_string" />
     <string name="contributor">contributor</string>
     <string name="thumbnail">thumbnail</string>
+    <string name="choose_your_newzys">Choose your Newzys!</string>
 
     <!-- Newzy categories. -->
     <string name="newzy">Newzy</string>
