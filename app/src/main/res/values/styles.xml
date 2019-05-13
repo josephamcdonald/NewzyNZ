@@ -20,7 +20,7 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="standard_item_text">
+    <style name="item_text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:maxLines">1</item>
@@ -28,7 +28,7 @@
         <item name="android:textSize">@dimen/text_small</item>
     </style>
 
-    <style name="title_item_text">
+    <style name="item_text_title">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/fira_sans_bold</item>
