@@ -9,10 +9,12 @@
         <item name="android:fontFamily">@font/fira_sans</item>
     </style>
 
+    <!-- Navigation drawer background. -->
     <style name="AppTheme.NavHeaderBackground">
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
+    <!-- Removes the action bar. -->
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -20,6 +22,7 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
+    <!-- Newzy item standard text layout, size and color. -->
     <style name="item_text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -28,6 +31,7 @@
         <item name="android:textSize">@dimen/text_small</item>
     </style>
 
+    <!-- Newzy item title text layout, size and color. -->
     <style name="item_text_title">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
