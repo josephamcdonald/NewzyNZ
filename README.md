@@ -56,6 +56,8 @@ N/A
 
 **Picasso**
 
+**CustomTabsIntent**
+
 **Google Fira Sans Typeface** - This is the only typeface used throughout the app (some detail below).
 
 
