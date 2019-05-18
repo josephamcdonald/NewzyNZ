@@ -4,7 +4,7 @@ package com.example.android.newzynz;
  * Grow With Google Challenge Scholarship: Android Basics
  * Project: 7
  * Version: 2.0
- * App Name: NewzyNews
+ * App Name: NewzyNZ
  * Author: Joseph McDonald
  */
 
