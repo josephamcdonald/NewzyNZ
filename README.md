@@ -16,9 +16,9 @@ Obtain your developer API key from The Guardian and reference it inside your glo
 
 ## Built With
 
-Android Studio 3.4.0
+Android Studio 3.4.1
 
-Gradle 5.5.1
+Gradle 5.1.1
 
 API Level: 21. Android 5.0 (LOLLIPOP)
 
