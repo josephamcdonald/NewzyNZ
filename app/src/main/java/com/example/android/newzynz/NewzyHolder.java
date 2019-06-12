@@ -13,6 +13,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 
 import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.View;
@@ -93,7 +94,7 @@ public class NewzyHolder extends RecyclerView.ViewHolder implements View.OnClick
         // Once ready, create a CustomTabsIntent and launch the current
         // Newzy Url with CustomTabsIntent.launchUrl()
         CustomTabsIntent customTabsIntent = new CustomTabsIntent.Builder()
-                .setToolbarColor(context.getResources().getColor(R.color.colorPrimary))
+                .setToolbarColor(ContextCompat.getColor(context, R.color.colorPrimary))
                 .setCloseButtonIcon(BitmapFactory.decodeResource(
                         context.getResources(), R.drawable.ic_arrow_back))
                 .setShowTitle(true)
