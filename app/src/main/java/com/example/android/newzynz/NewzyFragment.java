@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.app.LoaderManager.LoaderCallbacks;
 import androidx.loader.content.Loader;
@@ -89,12 +90,12 @@ public class NewzyFragment extends Fragment implements LoaderCallbacks<List<Newz
 
         // Declare and set drawable item divider line.
         DividerItemDecoration divider = new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL);
-        divider.setDrawable(getResources().getDrawable(R.drawable.divider));
+        divider.setDrawable(Objects.requireNonNull(ContextCompat.getDrawable(getActivity(), R.drawable.divider)));
         newzyRecyclerView.addItemDecoration(divider);
 
         // Find the swipe refresh layout and set color scheme.
         swipeRefreshLayout = rootView.findViewById(R.id.swipe_layout);
-        swipeRefreshLayout.setColorSchemeColors(getResources().getColor(R.color.colorAccent));
+        swipeRefreshLayout.setColorSchemeColors(ContextCompat.getColor(getActivity(), R.color.colorAccent));
 
         // Declare and set the OnRefreshListener to the swipe refresh layout.
         SwipeRefreshLayout.OnRefreshListener onRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
