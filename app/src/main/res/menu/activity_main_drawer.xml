@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="@string/choose_your_newzys">
+    <item
+        android:checkable="false"
+        android:title="@string/choose_your_newzys">
         <menu>
             <group>
                 <item
