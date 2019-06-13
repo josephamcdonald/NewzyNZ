@@ -9,7 +9,7 @@
         <item name="android:fontFamily">@font/fira_sans</item>
     </style>
 
-    <!-- Navigation drawer background. -->
+    <!-- Navigation header background. -->
     <style name="AppTheme.NavHeaderBackground">
         <item name="android:background">@color/colorPrimary</item>
     </style>
