@@ -20,7 +20,7 @@ Android Studio 3.4.1
 
 Gradle 5.1.1
 
-API Level: 21. Android 5.0 (LOLLIPOP)
+API Level: 23. Android 6.0 (MARSHMALLOW)
 
 ## Versioning
 
@@ -58,7 +58,7 @@ N/A
 
 **CustomTabsIntent**
 
-**Google Fira Sans Typeface** - This is the only typeface used throughout the app (some detail below).
+**Google "Fira Sans" Typeface** - This is the only typeface used throughout the app (some detail below).
 
 
 ## Acknowledgements
