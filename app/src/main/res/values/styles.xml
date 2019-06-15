@@ -14,6 +14,11 @@
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
+    <!-- Navigation item. -->
+    <style name="AppTheme.NavItem">
+        <item name="android:textSize">@dimen/text_standard</item>
+    </style>
+
     <!-- Removes the action bar. -->
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
