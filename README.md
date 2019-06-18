@@ -2,11 +2,11 @@
 
 ### New Zealand "Newzys!"
 
-Newzy NZ is based upon the Newsy news app!
+Newzy NZ is based upon the Newsy app!
 
 ## Getting Started
 
-Obtain your developer API key from The Guardian and reference it inside your global gradle.properties file. i.e. apiKeyTheGuardian="your api key here"
+Obtain your developer API key from The Guardian and provide it in the app settings.
 
 (https://open-platform.theguardian.com/access/)
 
