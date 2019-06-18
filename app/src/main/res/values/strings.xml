@@ -78,4 +78,10 @@
     <string name="settings_newzys_to_date_key" translatable="false">to-date</string>
     <string name="settings_newzys_to_date_default" translatable="false">@string/empty_string</string>
     <string name="provide_optional_to_date">Provide optional To date</string>
+
+    <!-- Strings For API Key Preference [CHAR LIMIT=30] -->
+    <string name="settings_api_key_label">API Key:</string>
+    <string name="settings_api_key_key" translatable="false">api-key</string>
+    <string name="settings_api_key_default" translatable="false">@string/empty_string</string>
+    <string name="provide_api_key">Provide API Key</string>
 </resources>

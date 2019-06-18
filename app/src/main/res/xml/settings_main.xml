@@ -32,4 +32,12 @@
         android:summary="@string/provide_optional_to_date"
         android:title="@string/settings_newzys_to_date_label" />
 
+    <EditTextPreference
+        android:hint="@string/provide_api_key"
+        android:inputType="text"
+        android:key="@string/settings_api_key_key"
+        android:selectAllOnFocus="true"
+        android:summary="@string/provide_api_key"
+        android:title="@string/settings_api_key_label" />
+
 </PreferenceScreen>

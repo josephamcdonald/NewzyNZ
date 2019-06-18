@@ -231,6 +231,10 @@ public class NewzyFragment extends Fragment implements LoaderCallbacks<List<Newz
                 getString(R.string.settings_newzys_to_date_key),
                 getString(R.string.settings_newzys_to_date_default));
 
+        String apiKey = sp.getString(
+                getString(R.string.settings_api_key_key),
+                getString(R.string.settings_api_key_default));
+
         // Break apart the URI string that's passed into its parameter.
         Uri baseUri = Uri.parse(baseUrl);
 
@@ -258,7 +262,7 @@ public class NewzyFragment extends Fragment implements LoaderCallbacks<List<Newz
         uriBuilder.appendQueryParameter("show-tags", getString(R.string.contributor));
         uriBuilder.appendQueryParameter("show-fields", getString(R.string.thumbnail));
         uriBuilder.appendQueryParameter("q", getString(R.string.new_zealand_query));
-        uriBuilder.appendQueryParameter("api-key", BuildConfig.THE_GUARDIAN_API_KEY);
+        uriBuilder.appendQueryParameter("api-key", apiKey);
 
         return uriBuilder.toString();
     }
