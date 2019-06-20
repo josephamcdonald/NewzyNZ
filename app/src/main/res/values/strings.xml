@@ -71,13 +71,13 @@
     <string name="settings_newzys_from_date_label">From Date: (optional)</string>
     <string name="settings_newzys_from_date_key" translatable="false">from-date</string>
     <string name="settings_newzys_from_date_default" translatable="false">@string/empty_string</string>
-    <string name="provide_optional_from_date">Provide optional From date</string>
+    <string name="provide_optional_from_date">Provide optional From Date</string>
 
     <!-- Strings For Newzys To Retrieve Preference [CHAR LIMIT=30] -->
     <string name="settings_newzys_to_date_label">To Date: (optional)</string>
     <string name="settings_newzys_to_date_key" translatable="false">to-date</string>
     <string name="settings_newzys_to_date_default" translatable="false">@string/empty_string</string>
-    <string name="provide_optional_to_date">Provide optional To date</string>
+    <string name="provide_optional_to_date">Provide optional To Date</string>
 
     <!-- Strings For API Key Preference [CHAR LIMIT=30] -->
     <string name="settings_api_key_label">Guardian API Key:</string>
