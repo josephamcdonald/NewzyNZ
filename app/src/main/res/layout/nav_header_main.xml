@@ -6,7 +6,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="@dimen/padding_standard"
-    android:theme="@style/AppTheme.NavHeaderBackground">
+    android:theme="@style/AppTheme.NavHeader">
 
     <ImageView
         android:layout_width="wrap_content"

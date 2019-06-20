@@ -9,12 +9,12 @@
         <item name="android:fontFamily">@font/fira_sans</item>
     </style>
 
-    <!-- Navigation header background. -->
-    <style name="AppTheme.NavHeaderBackground">
+    <!-- Navigation header theme. -->
+    <style name="AppTheme.NavHeader">
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
-    <!-- Navigation item. -->
+    <!-- Navigation item theme. -->
     <style name="AppTheme.NavItem">
         <item name="android:textSize">@dimen/text_standard</item>
     </style>
