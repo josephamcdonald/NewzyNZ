@@ -12,7 +12,7 @@ Obtain your developer API key from The Guardian and provide it in the app settin
 
 ## Screenshots
 
-![Screenshot](/app/screenshots/Screenshot_Main.png) ![Screenshot](/app/screenshots/Screenshot_Drawer.png) ![Screenshot](/app/screenshots/Screenshot_Dest.png) ![Screenshot](/app/screenshots/Screenshot_Land.png)
+![Screenshot](/screenshots/Screenshot_Main.png) ![Screenshot](/screenshots/Screenshot_Drawer.png) ![Screenshot](/screenshots/Screenshot_Dest.png) ![Screenshot](/screenshots/Screenshot_Land.png)
 
 ## Built With
 
