@@ -45,9 +45,9 @@ class Newzy {
      *
      * @param section Newzy section.
      * @param date    Newzy publication date.
-     * @param title   Newzy publication time.
-     * @param url     Newzy title.
-     * @param author  Newzy web URL.
+     * @param title   Newzy title.
+     * @param url     Newzy web URL.
+     * @param author  Newzy author.
      * @param image   Newzy image URL.
      */
     Newzy(String section, String date, String title, String url, String author, String image) {
